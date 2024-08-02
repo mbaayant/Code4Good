@@ -16,11 +16,12 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-h1
-{
+h1{
     font-size: 2em; 
 }
-h2{ font-size: 1.5em; }
+h2{ 
+    font-size: 1.5em; 
+}
 .logo {
     height: 60px;
 }
@@ -50,7 +51,6 @@ h2{ font-size: 1.5em; }
     color: #fff;
 }
 
-/* Main Content */
 main {
     padding: 20px;
 }
@@ -87,16 +87,11 @@ img {
     text-decoration: none;
 }
 
-.caption a:hover {
-    text-decoration: underline;
-}
-
 .tooltip {
     position: relative;
     display: inline-block;
     cursor: pointer;
 }
-
 .tooltip .tooltiptext {
     visibility: hidden;
     width: 200px;
@@ -113,23 +108,10 @@ img {
     opacity: 0;
     transition: opacity 0.3s;
 }
-
 .tooltip:hover .tooltiptext {
     visibility: visible;
     opacity: 1;
 }
-
-/* Footer */
-footer {
-    background-color: #d8b4fe;
-    text-align: center;
-    padding: 10px 0;
-    color: #fff;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
 /* Responsive Styles */
 @media (max-width: 768px) {
     .nav-menu {

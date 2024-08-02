@@ -10,170 +10,114 @@
         rel="stylesheet">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <script>
+        function toggleMenu() {
+        var x = document.getElementById("navMenu");
+        if (x.className === "nav-menu") {
+            x.className += " responsive";
+        } else {
+            x.className = "nav-menu";
+        }
+    }
+    </script>
 </head>
 
 <body>
     <header>
-        <div class="header-container"> <img src="Images/logo.webp" alt="Code 4 Good Logo" class="logo">
-            <nav id="navMenu" class="nav-menu"> <a href="#home">Home</a> <a href="#merit">Merit-based Scholarships</a>
-                <a href="#aid">Federal Aid</a> <a href="#estimator">Net Cost Calculator</a> <a href="#about">About
-                    Us</a> </nav> <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
+        <div class="header-container">
+            <img src="Images/logo.webp" alt="Code 4 Good Logo" class="logo">
+            <nav id="navMenu" class="nav-menu">
+                <a href="#home">Home</a>
+                <a href="#merit">Merit-based Scholarships</a>
+                <a href="#aid">Federal Aid</a>
+                <a href="#estimator">Net Cost Calculator</a>
+                <a href="#about">About Us</a>
+            </nav>
+            <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
         </div>
     </header>
     <main>
         <section id="home">
-            <h1 class="Heading">Welcome to Code4Good</h1> <img src="Images/HomePage.jpg"
-                alt="Photo of graduation by Jane Carmona">
-            <p>This is Code4Good's ScholarPath, your ultimate resource for navigating scholarships, financial aid, and
-                college cost estimations. Our mission is to provide you with the tools and information needed to make
-                informed decisions about your educational financing.</p>
-            <p>ScholarPath was created to support students like you in finding and securing financial resources for your
-                studies. We offer a comprehensive collection of resources, including details on merit-based
-                scholarships, federal student aid, and a net cost estimator to help you plan for the expenses of higher
-                education.</p>
-            <p>Our platform is designed to simplify the complex process of funding your education. Whether you're
-                exploring scholarship opportunities, seeking federal aid, or calculating the potential costs of college,
-                ScholarPath is here to guide you through each step with clarity and confidence.</p>
-            <p>We are committed to empowering you with the knowledge you need to achieve your academic and financial
-                goals. Dive into our sections to discover valuable resources and tools tailored to support your
-                educational journey.</p>
+            <h1 class="heading">Welcome to Code4Good</h1>
+            <img src="Images/HomePage.jpg" alt="Photo of graduation by Jane Carmona">
+            <p>This is Code4Good's ScholarPath, your ultimate resource for navigating scholarships, financial aid, and college cost estimations. Our mission is to provide you with the tools and information needed to make informed decisions about your educational financing.</p>
+            <p>ScholarPath was created to support students like you in finding and securing financial resources for your studies. We offer a comprehensive collection of resources, including details on merit-based scholarships, federal student aid, and a net cost estimator to help you plan for the expenses of higher education.</p>
+            <p>Our platform is designed to simplify the complex process of funding your education. Whether you're exploring scholarship opportunities, seeking federal aid, or calculating the potential costs of college, ScholarPath is here to guide you through each step with clarity and confidence.</p>
+            <p>We are committed to empowering you with the knowledge you need to achieve your academic and financial goals. Dive into our sections to discover valuable resources and tools tailored to support your educational journey.</p>
         </section>
         <hr>
         <section id="merit">
-            <h1>Merit-based Scholarships</h1> <img src="Images/Books.jpg" alt="Photo of Books">
-            <p class="caption">Photo by <a
-                    href="https://unsplash.com/@kaboompics?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karolina
-                    Grabowska</a> on <a
-                    href="https://unsplash.com/photos/a-vase-and-some-books-H_eb_VfG2Ow?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            </p>
-            <p>Discover various scholarships available for students based on academic performance and other
-                achievements. We provide details on eligibility criteria, application processes, and deadlines.</p>
+            <h1>Merit-based Scholarships</h1>
+            <img src="Images/Books.jpg" alt="Photo of Books">
+            <p class="caption">Photo by <a href="https://unsplash.com/@kaboompics?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Karolina Grabowska</a> on <a href="https://unsplash.com/photos/a-vase-and-some-books-H_eb_VfG2Ow?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            <p>Discover various scholarships available for students based on academic performance and other achievements. We provide details on eligibility criteria, application processes, and deadlines.</p>
         </section>
         <hr>
         <section id="aid">
-            <h1>Federal Student Aid</h1> <img src="Images/Money.jpg" alt="Photo of Money">
-            <p class="caption">Photo by <a
-                    href="https://unsplash.com/@neonbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kenny
-                    Eliason</a> on <a
-                    href="https://unsplash.com/photos/1-us-dollar-banknote-close-up-photography-AOJGuIJkoBc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            </p>
+            <h1>Federal Student Aid</h1>
+            <img src="Images/Money.jpg" alt="Photo of Money">
+            <p class="caption">Photo by <a href="https://unsplash.com/@neonbrand?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Kenny Eliason</a> on <a href="https://unsplash.com/photos/1-us-dollar-banknote-close-up-photography-AOJGuIJkoBc?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
             <h2>Introduction to FAFSA</h2>
-            <p>FAFSA® or the Free Application for Federal Student Aid, known as the FAFSA form, is the application that
-                students complete each year to receive student aid for college or career school.</p>
+            <p>FAFSA® or the Free Application for Federal Student Aid, known as the FAFSA form, is the application that students complete each year to receive student aid for college or career school.</p>
             <h3>Why FAFSA is Important</h3>
-            <p>It's important that you fill out the FAFSA form if you want to receive financial aid. The FAFSA form has
-                a series of questions for you to answer. The information you provide will be used to determine your
-                eligibility for federal student aid, and many states will use your information to determine eligibility
-                for state financial aid. This financial aid may include grants, scholarships, work-study funds, and
-                student loans.</p>
+            <p>It's important that you fill out the FAFSA form if you want to receive financial aid. The FAFSA form has a series of questions for you to answer. The information you provide will be used to determine your eligibility for federal student aid, and many states will use your information to determine eligibility for state financial aid. This financial aid may include grants, scholarships, work-study funds, and student loans.</p>
             <h3>How to Submit Your FAFSA Form</h3>
-            <p>When you complete the FAFSA form online, you can pick up to 20 schools to receive your information. Those
-                schools will use the information to calculate how much student aid to offer you. Each school will send
-                you an aid offer that details the types and amounts of aid available to you.</p>
+            <p>When you complete the FAFSA form online, you can pick up to 20 schools to receive your information. Those schools will use the information to calculate how much student aid to offer you. Each school will send you an aid offer that details the types and amounts of aid available to you.</p>
             <h3>The Benefits of Financial Aid</h3>
-            <p>Financial aid can help you and your family afford college or career school. Submit your FAFSA form to
-                access the largest source of financial aid—federal student aid—as well as financial aid from your school
-                and state.</p>
+            <p>Financial aid can help you and your family afford college or career school. Submit your FAFSA form to access the largest source of financial aid—federal student aid—as well as financial aid from your school and state.</p>
             <h3>Tips for FAFSA Submission</h3>
-            <p>Make sure that you complete the form for every year you plan to attend school. You should submit it as
-                early as possible on or after the day the form launches, to meet state, school, and federal deadlines,
-                and to be eligible for as much aid as possible.</p>
+            <p>Make sure that you complete the form for every year you plan to attend school. You should submit it as early as possible on or after the day the form launches, to meet state, school, and federal deadlines, and to be eligible for as much aid as possible.</p>
             <h2>Federal Student Aid Eligibility Requirements</h2>
             <p>To qualify for federal student aid, you must:</p>
             <ol>
                 <li><b>Demonstrate Financial Need:</b> This is required for most federal student aid programs.</li>
-                <li><b>Citizen Status:</b> Be a U.S. citizen or an <span class="tooltip">eligible non-citizen<span
-                            class="tooltiptext">Eligible Non-citizen: A U.S. national (includes natives of American
-                            Samoa or Swains Island), U.S. permanent resident (who has an I-151, I-551 or I-551C
-                            [Permanent Resident Card]), or an individual who has an Arrival-Departure Record (I-94) from
-                            U.S. Citizenship and Immigration Services (USCIS) showing one of the following designations:
-                            <ul>
-                                <li>"Refugee"</li>
-                                <li>"Asylum Granted"</li>
-                                <li>"Cuban-Haitian Entrant (Status Pending)"</li>
-                                <li>"Conditional Entrant" (valid only if issued before April 1, 1980)</li>
-                                <li>Victims of human trafficking, T-visa (T-2, T-3, or T-4, etc.) holder</li>
-                                <li>“Parolee” (You must be paroled into the United States for at least one year and you
-                                    must be able to provide evidence from the USCIS that you are in the United States
-                                    for other than a temporary purpose with the intention of becoming a U.S. citizen or
-                                    lawful permanent resident.)</li>
-                            </ul></span></span></li>
-                <li><b>Enrollment:</b> Be enrolled or accepted for enrollment as a regular student in an eligible degree
-                    or certificate program.</li>
-                <li><b>Valid Social Security Number (SSN):</b> You must have one unless you are from the Republic of the
-                    Marshall Islands, Federated States of Micronesia, or the Republic of Palau.</li>
-                <li><b>Educational Requirements:</b> Be qualified to obtain a college or career school education, either
-                    by having a high school diploma or a state-recognized equivalent such as a General Educational
-                    Development (GED) certificate; or completing a high school education in a homeschool setting
-                    approved under state law (or—if state law does not require a homeschooled student to obtain a
-                    completion credential—completing a high school education in a homeschool setting that qualifies as
-                    an exemption from compulsory attendance requirements under state law); or enrolling in an eligible
-                    career pathways program.</li>
+                <li><b>Citizen Status:</b> Be a U.S. citizen or an <span class="tooltip">eligible non-citizen<span class="tooltiptext">Eligible Non-citizen: A U.S. national (includes natives of American Samoa or Swains Island), U.S. permanent resident (who has an I-151, I-551 or I-551C [Permanent Resident Card]), or an individual who has an Arrival-Departure Record (I-94) from U.S. Citizenship and Immigration Services (USCIS) showing one of the following designations: <ul><li>"Refugee"</li><li>"Asylum Granted"</li><li>"Cuban-Haitian Entrant (Status Pending)"</li><li>"Conditional Entrant" (valid only if issued before April 1, 1980)</li><li>Victims of human trafficking, T-visa (T-2, T-3, or T-4, etc.) holder</li><li>“Parolee” (You must be paroled into the United States for at least one year and you must be able to provide evidence from the USCIS that you are in the United States for other than a temporary purpose with the intention of becoming a U.S. citizen or lawful permanent resident.)</li></ul></span></span></li>
+                <li><b>Enrollment:</b> Be enrolled or accepted for enrollment as a regular student in an eligible degree or certificate program.</li>
+                <li><b>Valid Social Security Number (SSN):</b> You must have one unless you are from the Republic of the Marshall Islands, Federated States of Micronesia, or the Republic of Palau.</li>
+                <li><b>Educational Requirements:</b> Be qualified to obtain a college or career school education, either by having a high school diploma or a state-recognized equivalent such as a General Educational Development (GED) certificate; or completing a high school education in a homeschool setting approved under state law (or—if state law does not require a homeschooled student to obtain a completion credential—completing a high school education in a homeschool setting that qualifies as an exemption from compulsory attendance requirements under state law); or enrolling in an eligible career pathways program.</li>
             </ol>
             <h2>Types of Federal Student Aid</h2>
             <p>There are several types of federal student aid, including:</p>
             <ul>
                 <li><b>Grants:</b> Financial aid that typically doesn't have to be repaid.</li>
-                <li><b>Loans:</b> Borrowed money for college or career school; you must repay your loans, with interest.
-                </li>
+                <li><b>Loans:</b> Borrowed money for college or career school; you must repay your loans, with interest.</li>
                 <li><b>Work-Study:</b> A work program through which you earn money to help you pay for school.</li>
             </ul>
             <h2>Federal Student Aid Application Process</h2>
-            <p>The FAFSA form is the free application for federal student aid. Submitting your FAFSA form is the first
-                step toward getting federal aid for college or career school. You should submit it as early as possible
-                to meet state, school, and federal deadlines.</p>
+            <p>The FAFSA form is the free application for federal student aid. Submitting your FAFSA form is the first step toward getting federal aid for college or career school. You should submit it as early as possible to meet state, school, and federal deadlines.</p>
         </section>
         <hr>
         <section id="estimator">
-            <h1>Net Cost Calculator</h1> <img src="Images/Calculator.jpg" alt="Photo of a Calculator">
-            <p class="caption">Photo by <a
-                    href="https://unsplash.com/@firmbee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Firmbee.com</a>
-                on <a
-                    href="https://unsplash.com/photos/mU2MwuAvllE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            </p>
-            <h2>Introduction</h2>
-            <p>Use our Net Cost Calculator to estimate the potential costs of your college education, taking into
-                account factors such as tuition, fees, and financial aid. This tool provides a personalized estimate
-                based on your inputs, helping you plan and budget for your education expenses.</p>
+            <h1>Net Cost Calculator</h1>
+            <img src="Images/Calculator.jpg" alt="Photo of a Calculator">
+            <p class="caption">Photo by <a href="https://unsplash.com/@firmbee?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Firmbee.com</a> on <a href="https://unsplash.com/photos/5KkPSQU01aI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            <p>Use our net cost calculator to estimate the cost of attending your preferred colleges or career schools. By inputting information about your family's financial situation and the schools you are interested in, you can get a better understanding of the potential out-of-pocket expenses you may face.</p>
             <h2>How to Use the Calculator</h2>
-            <p>To get started, enter your details, including the schools you're interested in, your family financial
-                information, and any expected scholarships or aid. The calculator will generate an estimate of your net
-                cost, helping you understand what you might need to cover through savings, loans, or other resources.
-            </p>
-            <h2>Benefits of Using the Calculator</h2>
-            <p>Understanding your potential costs and financial aid options can help you make informed decisions about
-                where to apply and how to plan for your education expenses. The Net Cost Calculator is a valuable tool
-                for students and families preparing for college.</p>
+            <p>Enter your household income, the number of people in your household, and the number of family members currently enrolled in college. The calculator will provide an estimate of the net cost of attendance after accounting for expected family contributions and any available financial aid.</p>
+            <h3>Benefits of Using the Calculator</h3>
+            <p>By using our net cost calculator, you can:</p>
+            <ul>
+                <li>Compare the estimated costs of different schools.</li>
+                <li>Plan your budget more effectively.</li>
+                <li>Make informed decisions about which schools to apply to based on affordability.</li>
+            </ul>
         </section>
         <hr>
         <section id="about">
-            <h1>About Us</h1> <img src="Images/AboutUs.jpg" alt="Photo of Students">
-            <p class="caption">Photo by <a
-                    href="https://unsplash.com/@priscilladupreez?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Priscilla
-                    Du Preez</a> on <a
-                    href="https://unsplash.com/photos/XkKCui44iM0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-            </p>
+            <h1>About Us</h1>
+            <img src="Images/Team.jpg" alt="Photo of Team">
+            <p class="caption">Photo by <a href="https://unsplash.com/@loganfurlong?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Logan Furlong</a> on <a href="https://unsplash.com/photos/X0dI9w_zXww?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a></p>
+            <p>Code4Good is dedicated to supporting students in their pursuit of higher education by providing comprehensive resources on scholarships, financial aid, and cost estimation. Our platform is designed to make the process of finding and securing financial support for college as simple and straightforward as possible.</p>
             <h2>Our Mission</h2>
-            <p>Code4Good's ScholarPath is dedicated to providing students with the resources and information needed to
-                navigate the complexities of funding their education. Our mission is to empower students with the
-                knowledge and tools required to make informed decisions about scholarships, financial aid, and college
-                costs.</p>
+            <p>We aim to empower students by providing them with the necessary tools and information to navigate the complexities of educational financing. Our goal is to help students access the resources they need to achieve their academic goals without financial barriers.</p>
             <h2>Our Team</h2>
-            <p>Our team is comprised of experts in education finance, dedicated to supporting students on their journey
-                to higher education. We are passionate about helping you achieve your academic and financial goals
-                through comprehensive resources and personalized guidance.</p>
+            <p>Our team consists of dedicated professionals who are passionate about education and committed to helping students succeed. We continuously update our resources and tools to ensure that we provide the most accurate and up-to-date information available.</p>
         </section>
     </main>
     <footer>
         <p>&copy; 2024 Code4Good. All rights reserved.</p>
     </footer>
-    <script> function toggleMenu() 
-            { var x = document.getElementById("navMenu"); 
-             if (x.className === "nav-menu") 
-                 { x.className += " responsive"; } 
-             else { x.className = "nav-menu"; } 
-            } 
-    </script>
+    <script src="script.js"></script>
 </body>
 
 </html>

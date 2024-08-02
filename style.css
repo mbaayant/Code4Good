@@ -69,9 +69,7 @@ main {
     padding: 20px;
 }
 
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     color: #5a189a;
 }
 
@@ -138,8 +136,8 @@ footer {
     padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 125%;
-    left: 50%;
+    bottom: 125%; 
+    left: 50%; 
     margin-left: -100px;
     opacity: 0;
     transition: opacity 0.3s;

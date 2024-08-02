@@ -1,19 +1,16 @@
 body {
-    font-family: "Open sans", 'Roboto', Arial;
+    font-family: "Open Sans", "Roboto", Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f5f5dc;
-    /* Light beige background */
-    scroll-behavior: smooth;
-    /* Smooth scrolling */
+    background-color: #f5f5dc; /* Light beige background */
+    scroll-behavior: smooth; /* Smooth scrolling */
 }
 
 header {
-    background-color: #d8a7e5;
-    /* Light purple background */
+    background-color: #d8a7e5; /* Light purple background */
     padding: 7px;
     text-align: right;
-    font-family: "Ubuntu", "Montserrat", "Arial", sans-serif;
+    font-family: "Ubuntu", "Montserrat", Arial, sans-serif;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -24,9 +21,8 @@ header {
 
 nav {
     display: flex;
-    justify-content: right;
-    background-color: #d8a7e5;
-    /* Light purple background */
+    justify-content: flex-end; /* Use flex-end for right alignment */
+    background-color: #d8a7e5; /* Light purple background */
     flex-wrap: wrap;
 }
 
@@ -43,22 +39,21 @@ nav a:hover {
 }
 
 section {
-    padding-left: 20px;
-    padding-right: 10px;
-    margin-right: 5px;
-    margin-left: 10px;
-    padding-bottom: 20px;
+    padding: 20px 10px 20px 20px; /* Adjust padding for consistency */
+    margin: 0 5px;
+}
+
+h1, h2, h3 {
+    color: #b074e5;
 }
 
 h1 {
-    font-size: 2em;
-    /* Font size for h1 */
+    font-size: 2em; /* Font size for h1 */
     margin-bottom: 10px;
 }
 
 h2 {
-    font-size: 1.5em;
-    /* Font size for h2 */
+    font-size: 1.5em; /* Font size for h2 */
     margin-bottom: 10px;
 }
 
@@ -72,8 +67,7 @@ h2 {
 
 .tooltip .tooltiptext {
     visibility: hidden;
-    width: 300px;
-    /* Adjust the width as needed */
+    width: 300px; /* Adjust the width as needed */
     background-color: #f6f6ed;
     color: #333;
     text-align: left;
@@ -117,9 +111,7 @@ hr {
     font-weight: bold;
     background-color: #d8a7e5;
 }
-h1, h2, h3{
-    color: #b074e5;
-}
+
 @media (max-width: 650px) {
     .menu-icon {
         display: block;
@@ -141,10 +133,12 @@ h1, h2, h3{
         border-top: 1px solid #b58cd9;
     }
 }
+
 img.aid {
     width: 60%;
 }
-img{
+
+img {
     aspect-ratio: 3/2;
     width: 80%;
     height: auto;
@@ -155,9 +149,11 @@ img{
 img:hover {
     transform: scale(1.05);
 }
+
 .logo {
     height: 50px;
 }
-.caption{
+
+.caption {
     font-size: smaller;
 }

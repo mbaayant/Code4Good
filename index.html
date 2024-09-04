@@ -3,35 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Home page of Code4Good's ScholarPath, an online tool designed to help students find information about scholarships, financial aid, and college costs.">
-    <title>Home - ScholarPath</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <script src = "script.js"></script>
-    <link rel="stylesheet" href="style.css">
+    <title>Understanding Loops: A Fundamental Concept in Computing</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lora:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            color: #333;
+        }
+        h2 {
+            font-family: 'Lora', serif;
+            font-weight: 700;
+            color: #555;
+        }
+        ul {
+            margin: 0;
+            padding: 0;
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        code {
+            font-family: 'Roboto', sans-serif;
+            background: #f4f4f4;
+            padding: 3px 5px;
+            border-radius: 4px;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <img src="ScholarPath logo.jpg" alt="ScholarPath Logo" class="logo">
-        <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
-        <nav id="navMenu" class="nav-menu">
-            <a href="/home.html">Home</a>
-            <a href="/merit.html">Merit-based Scholarships</a>
-            <a href="/aid.html">Federal Aid</a>
-            <a href="/estimator.html">Net Cost Calculator</a>
-            <a href="/about.html">About Us</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-        <h1 class="Heading">Welcome to ScholarPath</h1>
-            <img src="Images/HomePage.jpg" alt="Photo of graduation by Jane Carmona">
-            <p>This is ScholarPath, designed by the Code4Good initaitive, your ultimate resource for navigating scholarships, financial aid, and college cost estimations. Our mission is to provide you with the tools and information needed to make informed decisions about your educational financing.</p>
-            <p>ScholarPath was created to support students like you in finding and securing financial resources for your studies. We offer a comprehensive collection of resources, including details on merit-based scholarships, federal student aid, and a net cost estimator to help you plan for the expenses of higher education.</p>
-            <p>Our platform is designed to simplify the complex process of funding your education. Whether you're exploring scholarship opportunities, seeking federal aid, or calculating the potential costs of college, ScholarPath is here to guide you through each step with clarity and confidence.</p>
-            <p>We are committed to empowering you with the knowledge you need to achieve your academic and financial goals. Dive into our sections to discover valuable resources and tools tailored to support your educational journey.</p>
-        </section>
-        <hr>
-    </main>
+    <div class="container">
+        <h1>Understanding Loops: A Fundamental Concept in Computing</h1>
+        
+        <p>Loops are essential in programming for automating repetitive tasks, supporting the <strong>DRY (Don’t Repeat Yourself)</strong> principle. This principle emphasizes writing code once and reusing it, which keeps your code clean and reduces redundancy. Loops help achieve this by allowing you to execute a block of code multiple times without rewriting it.</p>
+
+        <h2>What is a Loop?</h2>
+        <p>A loop is a control structure that repeatedly runs a block of code until a specified condition is met. Each repetition of the loop is called an <strong>iteration</strong>. For example, a loop can print numbers from 1 to 100 by repeating the print command until it reaches 100.</p>
+
+        <h2>Key Terms:</h2>
+        <ul>
+            <li><strong>Iteration:</strong> Each repeat of the loop’s code.</li>
+            <li><strong>Condition:</strong> The rule that determines when the loop should stop.</li>
+            <li><strong>Initialization:</strong> The initial setup of variables before the loop starts, setting a starting value for the loop control variable.</li>
+            <li><strong>Loop Control Variable:</strong> A variable used to control the number of iterations and determine when the loop should stop.</li>
+            <li><strong>Body:</strong> The block of code inside the loop that gets executed each time the loop iterates.</li>
+            <li><strong>Increment/Decrement:</strong> The process of changing the loop control variable, usually by adding or subtracting a value each iteration, to move toward the termination condition.</li>
+            <li><strong>Break Statement:</strong> A control statement used to exit the loop prematurely when a specific condition is met.</li>
+            <li><strong>Continue Statement:</strong> A control statement used to skip the rest of the code in the current iteration and proceed to the next iteration of the loop.</li>
+        </ul>
+
+        <h2>Why Are Loops Important and How Are They Used?</h2>
+        <p>Loops are crucial because they:</p>
+        <ul>
+            <li><strong>Automate Repetitive Tasks:</strong> They handle tasks automatically, saving time and effort. For instance, in data processing, a loop can apply the same operation, like adjusting brightness, to multiple images captured by a telescope without needing separate commands for each one.</li>
+            <li><strong>Process Large Datasets Efficiently:</strong> They make it easier to work with extensive data. For example, a loop can calculate the average of a large list of test scores by repeatedly adding each score and then dividing by the total number of scores.</li>
+            <li><strong>Handle Dynamic Conditions:</strong> They adapt to changing conditions or inputs. In user input validation, a loop can repeatedly prompt a user until valid input is provided, ensuring that the program functions correctly with accurate data.</li>
+            <li><strong>Simplify Complex Calculations:</strong> They manage repetitive calculations in simulations or experiments. For example, a loop can run climate models or simulations by repeatedly calculating and updating data, making it easier to study patterns over time.</li>
+            <li><strong>Facilitate Data Analysis:</strong> They streamline tasks like counting or iterating over data. In a biology lab, a loop can count cells in different samples automatically, making the process faster and reducing manual effort.</li>
+        </ul>
+
+        <p>Mastering loops is fundamental for effective programming, as they help maintain clean, efficient, and adaptable code by adhering to the DRY principle and automating repetitive tasks across various applications.</p>
+    </div>
 </body>
 </html>
